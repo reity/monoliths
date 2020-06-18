@@ -18,3 +18,7 @@ The library can be imported in the usual way::
 
     import monoliths
     from monoliths import *
+
+Style conventions are enforced using `Pylint <https://www.pylint.org/>`_::
+
+    pylint monoliths
