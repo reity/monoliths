@@ -139,7 +139,7 @@ disable=print-statement,
         deprecated-sys-function,
         exception-escape,
         comprehension-escape,
-        C0103
+        R0903
 
 # Enable the message, report, category or checker with the given id(s). You can
 # either give multiple identifier separated by comma (,) or put this option
@@ -221,7 +221,7 @@ class-naming-style=PascalCase
 
 # Regular expression matching correct class names. Overrides class-naming-
 # style.
-#class-rgx=
+class-rgx=^[a-zA-Z][a-z0-9]*((_[a-z0-9]+)*)?$
 
 # Naming style matching correct constant names.
 const-naming-style=UPPER_CASE
@@ -291,7 +291,7 @@ variable-naming-style=snake_case
 
 # Regular expression matching correct variable names. Overrides variable-
 # naming-style.
-#variable-rgx=
+variable-rgx=^([a-zA-Z][a-z0-9]*((_[a-z0-9]+)*)?)$
 
 
 [FORMAT]
