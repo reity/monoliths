@@ -4,9 +4,18 @@ monoliths
 
 Python tool for automatically wrapping a multi-module Python library into a single portable module file.
 
-.. image:: https://badge.fury.io/py/monoliths.svg
+|pypi| |travis|
+
+.. |pypi| image:: https://badge.fury.io/py/monoliths.svg
    :target: https://badge.fury.io/py/monoliths
    :alt: PyPI version and link.
+
+.. |travis| image:: https://travis-ci.com/reity/monoliths.svg?branch=master
+    :target: https://travis-ci.com/reity/monoliths
+
+Purpose
+-------
+This tool can assist with the implementation of an automated process that wraps a Python library consisting of multiple modules into a single portable module file.
 
 Package Installation and Usage
 ------------------------------
