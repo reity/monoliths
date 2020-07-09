@@ -5,7 +5,7 @@ with open("README.rst", "r") as fh:
 
 setup(
     name="monoliths",
-    version="0.1.0",
+    version="0.2.0",
     packages=["monoliths",],
     install_requires=[],
     license="MIT",
